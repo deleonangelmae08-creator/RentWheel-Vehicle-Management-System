@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 500" role="img" aria-labelledby="title">
+  <title id="title">RentWheel</title>
+  <defs>
+    <linearGradient id="wheel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#73d1df"/>
+      <stop offset="1" stop-color="#245bb4"/>
+    </linearGradient>
+    <path id="word-curve" d="M82 427 Q256 505 430 427"/>
+  </defs>
+  <circle cx="256" cy="226" r="190" fill="url(#wheel)" stroke="#05080e" stroke-width="30" stroke-dasharray="17 8"/>
+  <circle cx="256" cy="226" r="137" fill="none" stroke="#05080e" stroke-width="10"/>
+  <path d="M128 229h38l23-29h87l27 27h72c18 0 31 14 31 31v9H128z" fill="#123e68" opacity=".78"/>
+  <circle cx="174" cy="270" r="22" fill="#286a9b" stroke="#65bfd7" stroke-width="7"/>
+  <circle cx="336" cy="270" r="22" fill="#286a9b" stroke="#65bfd7" stroke-width="7"/>
+  <circle cx="299" cy="176" r="58" fill="#05080e" stroke="#05080e" stroke-width="12"/>
+  <circle cx="299" cy="176" r="48" fill="#05080e" stroke="#5598c7" stroke-width="7"/>
+  <circle cx="299" cy="176" r="18" fill="#4488c3"/>
+  <path d="m262 218-97 137-18-13 96-138 19 14zm-87 123-17 19-20-4 8-20 19 5zm22-31-13 19-21-3 6-20 20 4zm22-31-13 19-21-3 7-20 19 4z" fill="#05080e" stroke="#05080e" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="#05080e" opacity=".9">
+    <path d="M0 88h181l-22 8H0zm0 27h149l-18 8H0zm0 27h139l-17 8H0zm0 27h128l-16 8H0zm0 27h119l-14 8H0zm0 27h105l-17 8H0zm0 27h113l-19 8H0z"/>
+  </g>
+  <text fill="#11142b" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" letter-spacing="1">
+    <textPath href="#word-curve" startOffset="50%" text-anchor="middle">RENTWHEEL</textPath>
+  </text>
+</svg>
